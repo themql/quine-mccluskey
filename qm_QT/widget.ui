@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="label_maxbit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;变量位数&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_maxbit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inputinfo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;·回车结束输入。 ·&lt;span style=&quot; font-style:italic;&quot;&gt;变量位数&lt;/span&gt;改变自动清空。&lt;/p&gt;&lt;p&gt;·输入最小项(m3/0011),无关项(*m3/*0011)。&lt;/p&gt;&lt;p&gt;·首次输入添加，再次输入删除。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_inputvar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>400</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_inputvarDisplay">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>400</width>
+     <height>400</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_info">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>0</y>
+     <width>400</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_creat">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>200</y>
+     <width>100</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>==&gt;
+生成
+==&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_resultDisplay">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>200</y>
+     <width>300</width>
+     <height>400</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
