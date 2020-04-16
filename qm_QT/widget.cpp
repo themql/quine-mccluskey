@@ -41,7 +41,8 @@ void Widget::input_maxbit()
     {
         space*=2;
     }
-    inputvar.resize(space);
+    this->inputvar.clear();
+    this->inputvar.resize(space);
 
     ui->lineEdit_inputvar->clear();
     ui->label_inputvarDisplay->clear();
